@@ -1,0 +1,27 @@
+1. İşletim Sistemi Gereksinimleri
+Proje, Linux çekirdeği ve terminal komutları üzerine inşa edildiği için aşağıdaki sistemlerde çalışır:
+
+Ubuntu 20.04 LTS / 22.04 LTS veya daha yeni bir sürüm (Önerilen).
+
+Debian tabanlı herhangi bir Linux dağıtımı.
+
+Terminal (Bash) erişimi.
+
+ 2. Yazılım ve Dil Gereksinimleri
+Python 3.6 veya üzeri: Kodun çalışması için sistemde Python 3 yüklü olmalıdır.
+
+Kontrol etmek için: python3 --version
+
+Standart Python Kütüphaneleri: Kod içerisinde kullanılan os ve subprocess modülleri Python ile yerleşik gelir, harici bir pip install işlemi gerektirmez.
+
+ 3. Ağ Araçları ve Bağımlılıklar (Kritik)
+Kodun arka planda çalıştırdığı terminal komutlarının sistemde yüklü olması gerekir:
+
+NetworkManager (nmcli): DNS ayarlarını değiştirmek için gereklidir.
+
+iproute2 (ip a): IP adreslerini görüntülemek için gereklidir.
+
+iputils-ping (ping): Bağlantı testi için gereklidir.
+
+ 4. Yetki Gereksinimleri
+Sudo (Root) Yetkisi: DNS değiştirme işlemi (nmcli connection modify) sistem ayarlarını etkilediği için kullanıcı "sudo" yetkisine sahip olmalıdır.
