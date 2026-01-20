@@ -21,3 +21,6 @@ Projeyi çalıştırmak için terminali açın ve kaynak kodun olduğu dizine gi
 
 ```bash
 python3 src/Network_Helper.py
+
+Bu proje MIT lisansı ile lisanslanmıştır.
+
