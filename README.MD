@@ -16,11 +16,15 @@ Bu araç aşağıdaki işlevleri yerine getirir:
 - Network Manager (`nmcli`)
 - Yönetici yetkileri (`sudo` - DNS değişimi için gereklidir)
 
+Bu proje MIT lisansı ile lisanslanmıştır.
+
  Kurulum ve Kullanım
 Projeyi çalıştırmak için terminali açın ve kaynak kodun olduğu dizine giderek şu komutu yazın:
 
 ```bash
 python3 src/Network_Helper.py
 
-Bu proje MIT lisansı ile lisanslanmıştır.
+
+
+
 
